@@ -18,3 +18,33 @@ html {
 	box-sizing: inherit;
 }
 
+.img-flex {
+	width: 100%;
+	display: block;
+}
+
+/* SMALL SCREEN 400px (equal to 25em) */
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 5.5em;
+}
+
+li {
+	display: inline-block;
+}
+
+
+.masthead {
+		background-color: lightgrey;
+}
+

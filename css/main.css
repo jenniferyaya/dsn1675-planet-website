@@ -11,7 +11,8 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 
-	font-family: sans-serif;
+	font: normal 100%/1.5;
+	font-family: 'Muli', sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,14 +25,82 @@ html {
 }
 
 /* SMALL SCREEN 400px (equal to 25em) */
-
-h1 {
-	text-align: center;
+.yotta {
+	font-size: 5.651rem;
+/* line height= (fontsize/baseline height) x (baseline height/font size) */
+	line-height: .999;
 }
+
+.zetta {
+	font-size: 3.997rem;
+	line-height: .999;
+}
+
+h1, .hexa {
+	text-align: center;
+	font-size: 2.827rem;
+	line-height: .999;
+}
+
+h2, .peta {
+font-size: 1.999rem;
+line-height: .999;
+}
+
+h3, .tera {
+font-size: 1.414rem;
+line-height: .999;
+}
+
+p, .giga {
+	font-size: 1rem;
+	line-height: .999;
+}
+
+.milli {
+font-size: .707rem;
+line-height: .999;
+}
+
+.micro {
+	font-size: .5rem;
+	line-height: .999;
+}
+
+h1, h2, h3,
+p, ul, dl, figure, table, hr {
+	margin: 0 0 1.5rem 0;
+}
+
+.push {
+	margin-bottom: 1.5rem;
+}
+.push-half {
+	margin-bottom: .75rem;
+}
+
+.push-double {
+	margin-bottom: 3rem
+}
+
+.brand {
+	color: #0000ff;
+	font-weight: bold;
+}
+
+.banner {
+	background-color: #dedede;
+}
+
+
+
+
+
+
+
 
 a {
 	text-decoration: none;
-	color: #000;
 }
 
 a:hover {
@@ -51,13 +120,29 @@ li {
 
 
 .masthead {
-		background-color: lightgrey;
+	background-color: lightgrey;
+}
+
+.footer-li {
+	display: block;
+}
+
+/* MEDIUM SCREENS */
+
+@media only screen and (min-width: 38em) {
+
+
+
 }
 
 
-/* LARGE*/
 
-@media only
-nav ul {
-	margin-top: 2em;
+/* LARGE SCREENS */
+
+@media only screen and (min-width: 60em) {
+	nav ul {
+		margin-top: 2em;
+	}
+
+
 }

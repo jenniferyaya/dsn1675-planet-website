@@ -344,7 +344,7 @@ small, .milli {
 }
 
 .pad-top, .pad-t {
-  padding-top: 1.4rem;
+  padding-top: 0;
 }
 
 .pad-bottom, .pad-b {

@@ -347,7 +347,12 @@ td, th, fieldset {
 
 	li {
 		display: inline-block;
+    text-align: center;
 	}
+
+.copyright {
+  padding-right: 8.3rem;
+}
 
 }
 
@@ -700,6 +705,15 @@ td, th, fieldset {
 }
 
 
+  li {
+    display: inline-block;
+  }
+
+  li a:hover {
+    color: #fff;
+    background-color: #3a77bb;
+    padding: .5em .45em .5em .45em;
+  }
 
 }
 
@@ -874,6 +888,13 @@ td, th, fieldset {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
 }
+
+
+  li {
+    display: inline-block;
+  }
+
+
 
 }
 

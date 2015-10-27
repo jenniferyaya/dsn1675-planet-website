@@ -407,7 +407,7 @@ h5, .mega {
   line-height: 1.1667;
 }
 
-h6, .kilo, input, textarea {
+p, h6, .kilo, input, textarea {
   font-size: 1.0000rem;
   line-height: 1.4000;
 }
@@ -531,11 +531,6 @@ td, th, fieldset {
     padding: .5em .25em .5em 0;
   }
 
-  .img-fake {
-  width: 150%;
-  height: 150%;
-}
-
 
 }
 
@@ -594,7 +589,7 @@ h5, .mega {
   line-height: 1.2000;
 }
 
-h6, .kilo, input, textarea {
+p, h6, .kilo, input, textarea {
   font-size: 1.0000rem;
   line-height: 1.5000;
 }
@@ -710,10 +705,12 @@ td, th, fieldset {
   padding-right: 0.3750rem;
 }
 
-
   li {
     display: inline-block;
   }
+
+
+
 
 }
 
@@ -773,7 +770,7 @@ h5, .mega {
   line-height: 1.1253;
 }
 
-h6, .kilo, input, textarea {
+p, h6, .kilo, input, textarea {
   font-size: 1.0000rem;
   line-height: 1.5000;
 }

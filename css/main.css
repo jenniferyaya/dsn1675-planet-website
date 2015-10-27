@@ -19,52 +19,57 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	margin: 0;
+}
+
 .img-flex {
 	width: 100%;
 	display: block;
 }
 
 /* SMALL SCREEN 400px (equal to 25em) */
+
 .yotta {
-	font-size: 5.651rem;
+	font-size: 2.489em;
 /* line height= (fontsize/baseline height) x (baseline height/font size) */
-	line-height: .999;
+	line-height: ;
 }
 
 .zetta {
-	font-size: 3.997rem;
-	line-height: .999;
+	font-size: 2.074em;
+	line-height: ;
 }
 
 h1, .hexa {
 	text-align: center;
-	font-size: 2.827rem;
-	line-height: .999;
+	font-size: 1.728em;
+	line-height: ;
 }
 
 h2, .peta {
-font-size: 1.999rem;
-line-height: .999;
+	font-size: 1.44em;
+	line-height: ;
 }
 
 h3, .tera {
-font-size: 1.414rem;
-line-height: .999;
+	font-size: 1.2em;
+	line-height: ;
 }
 
 p, .giga {
-	font-size: 1rem;
-	line-height: .999;
+	font-size: 1em;
+	line-height: ;
 }
 
 .milli {
-font-size: .707rem;
-line-height: .999;
+font-size: .833em;
+line-height: ;
 }
 
 .micro {
-	font-size: .5rem;
-	line-height: .999;
+	font-size: .694em;
+	line-height: ;
 }
 
 h1, h2, h3,
@@ -72,9 +77,12 @@ p, ul, dl, figure, table, hr {
 	margin: 0 0 1.5rem 0;
 }
 
+
+
 .push {
 	margin-bottom: 1.5rem;
 }
+
 .push-half {
 	margin-bottom: .75rem;
 }
@@ -83,21 +91,76 @@ p, ul, dl, figure, table, hr {
 	margin-bottom: 3rem
 }
 
-.brand {
-	color: #0000ff;
-	font-weight: bold;
-}
-
-.banner {
-	background-color: #dedede;
-}
-
-.top-space {
+.pad-top {
 	margin-top: 1.5rem;
 }
 
-.left-space {
-	margin-left: 1.5rem;
+.pad-bottom {
+	padding-bottom: 1.5em;
+}
+
+.pad-none {
+	padding: 0;
+}
+
+.gutter {
+	margin: 0 1em 0 1em;
+}
+
+.gutter-left {
+	margin-left: 1em;
+}
+
+.island {
+	padding: .50em;
+}
+
+.island-double {
+	padding: 1em;
+}
+
+.gutter-l-none {
+	margin-left: 0;
+}
+
+
+
+
+.text-center {
+	text-align: center;
+}
+
+.brand {
+	color: #67bef0;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.white {
+	background-color: #fff;
+}
+
+.off-grey {
+	background-color: #6e6e6e;
+}
+
+.light-grey {
+	background-color: #d8d8d8;
+}
+
+.box-c1 {
+	background-color: #cbcbcb;
+}
+
+.box-c2 {
+	background-color: #e2e2e2;
+}
+
+.box-c3 {
+	background-color: #eeeeee;
 }
 
 
@@ -107,33 +170,31 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+li a:hover {
 	color: #fff;
+	background-color: #3a77bb;
+	padding: .45em 9em .45em .45em;
 }
-
 
 nav ul {
 	list-style-type: none;
 	padding: 0;
-	margin-left: 5.5em;
 }
 
 li {
-	display: inline-block;
-}
-
-
-.masthead {
-	background-color: lightgrey;
-}
-
-.footer-li {
 	display: block;
 }
+
+
+
+
+
+
 
 /* MEDIUM SCREENS */
 
 @media only screen and (min-width: 38em) {
+
 
 
 

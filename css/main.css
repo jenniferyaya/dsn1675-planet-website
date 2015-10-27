@@ -531,6 +531,9 @@ td, th, fieldset {
     padding: .5em .25em .5em 0;
   }
 
+  .img-size {
+    width: 160%;
+  }
 
 }
 
@@ -709,6 +712,9 @@ td, th, fieldset {
     display: inline-block;
   }
 
+.img-size {
+  width: 75%;
+}
 
 
 

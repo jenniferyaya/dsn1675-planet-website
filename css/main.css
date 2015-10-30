@@ -45,7 +45,6 @@ body {
   background-color: #fff;
 }
 
-
 .box-c1 {
   background-color: #cbcbcb;
 }
@@ -66,14 +65,6 @@ li a:hover {
   color: #fff;
   background-color: #3a77bb;
   padding: .45em 9em .45em .45em;
-}
-
-nav ul {
-  padding: 0;
-}
-
-.list-none {
-  list-style-type: none;
 }
 
 .copyright {
@@ -112,3 +103,4 @@ nav ul {
     display: inline-block;
   }
 }
+
